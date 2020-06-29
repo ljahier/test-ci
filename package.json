@@ -1,0 +1,27 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljahier/test-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljahier/test-ci/issues"
+  },
+  "homepage": "https://github.com/ljahier/test-ci#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  }
+}
